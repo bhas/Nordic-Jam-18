@@ -21,7 +21,7 @@ public class DestructablePieceScript : MonoBehaviour
             }
             if (Time <= 0)
             {
-                Destroy(this.gameObject);
+                this.gameObject.SetActive(false);
             }
         }
     }
