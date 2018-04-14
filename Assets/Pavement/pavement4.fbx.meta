@@ -1,22 +1,69 @@
 fileFormatVersion: 2
-guid: 32f6bdbbbef1d1841acf7b84bdeedcd1
-timeCreated: 1523695865
+guid: 4df4896a0d651a74fa57c5fd4387848b
+timeCreated: 1523705818
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Red
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: fasade
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Red
-    second: {fileID: 2100000, guid: f256399320f84cf4cb91249182c87daa, type: 3}
+    100000: crossing
+    100002: pavement1
+    100004: pavement2
+    100006: pavement3
+    100008: //RootNode
+    100010: strip
+    100012: stripe
+    100014: stripe.001
+    100016: stripe.002
+    100018: stripe.003
+    100020: stripe.004
+    400000: crossing
+    400002: pavement1
+    400004: pavement2
+    400006: pavement3
+    400008: //RootNode
+    400010: strip
+    400012: stripe
+    400014: stripe.001
+    400016: stripe.002
+    400018: stripe.003
+    400020: stripe.004
+    2100000: No Name
+    2100002: kantsten
+    2100004: asfalt
+    2100006: Strips
+    2300000: crossing
+    2300002: pavement1
+    2300004: pavement2
+    2300006: pavement3
+    2300008: strip
+    2300010: stripe
+    2300012: stripe.001
+    2300014: stripe.002
+    2300016: stripe.003
+    2300018: stripe.004
+    2300020: //RootNode
+    3300000: crossing
+    3300002: pavement1
+    3300004: pavement2
+    3300006: pavement3
+    3300008: strip
+    3300010: stripe
+    3300012: stripe.001
+    3300014: stripe.002
+    3300016: stripe.003
+    3300018: stripe.004
+    3300020: //RootNode
+    4300000: crossing
+    4300002: stripe.001
+    4300004: strip
+    4300006: pavement3
+    4300008: pavement2
+    4300010: stripe.004
+    4300012: stripe.003
+    4300014: pavement1
+    4300016: stripe.002
+    4300018: stripe
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -65,7 +112,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

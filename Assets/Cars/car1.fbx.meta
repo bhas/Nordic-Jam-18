@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 32f6bdbbbef1d1841acf7b84bdeedcd1
-timeCreated: 1523695865
+guid: 44fdaa6b3657eba4a80dc3c0eac97a11
+timeCreated: 1523704628
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Wheel
+    100004: Wheel.001
     400000: //RootNode
-    2100000: Red
+    400002: Wheel
+    400004: Wheel.001
+    2100000: car color
+    2100002: Black
+    2100004: Light
+    2100006: back lights
+    2100008: Grey
     2300000: //RootNode
+    2300002: Wheel
+    2300004: Wheel.001
     3300000: //RootNode
-    4300000: fasade
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Red
-    second: {fileID: 2100000, guid: f256399320f84cf4cb91249182c87daa, type: 3}
+    3300002: Wheel
+    3300004: Wheel.001
+    4300000: Car
+    4300002: Wheel.001
+    4300004: Wheel
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -65,7 +74,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
