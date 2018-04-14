@@ -15,14 +15,14 @@ public class DestructablePieceScript : MonoBehaviour
         if (Destroyed)
         {
             Time -= 1;
-            //if (Time <= 100)
-            //{
-            //    GetComponent<BoxCollider>().enabled = false;
-            //}
-            //if (Time <= 0)
-            //{
-            //    Destroy(this.gameObject);
-            //}
+            if (Time <= 100)
+            {
+                GetComponent<BoxCollider>().enabled = false;
+            }
+            if (Time <= 0)
+            {
+                this.gameObject.SetActive(false);
+            }
         }
     }
 
