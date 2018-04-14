@@ -21,31 +21,31 @@ public class WreckingBallScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        var distanceFromHinge = Vector3.Distance(this.gameObject.transform.position, HingeTarget.position);
-        Vector3 velocity = Vector3.down * GravityPower;
-        //if (Mathf.Abs(distanceFromHinge - MaxDistance) < 0.005f)
-            //return;
+        //var distanceFromHinge = Vector3.Distance(this.gameObject.transform.position, HingeTarget.position);
+        //Vector3 velocity = Vector3.down * GravityPower;
+        ////if (Mathf.Abs(distanceFromHinge - MaxDistance) < 0.005f)
+        //    //return;
 
-        if (distanceFromHinge > MaxDistance)
-        {
-            velocity += (HingeTarget.position - transform.position) * 0.2f;
-        }
-        Velocity += velocity * Acceleration;
-        Velocity *= 0.99f;
+        //if (distanceFromHinge > MaxDistance)
+        //{
+        //    velocity += (HingeTarget.position - transform.position) * 0.2f;
+        //}
+        //Velocity += velocity * Acceleration;
+        //Velocity *= 0.99f;
 
-        this.gameObject.transform.position += Velocity;
+        //this.gameObject.transform.position += Velocity;
 
-        //var direction = Target.position - gameObject.transform.position;
-        //var distance = Vector3.Distance(Target.position, gameObject.transform.position);
+        var direction = Target.position - gameObject.transform.position;
+        var distance = Vector3.Distance(Target.position, gameObject.transform.position);
 
-        //var forceCentri = Target.forward * Body.velocity.magnitude * 0.5f;
-        //var moveTowardsCenter = direction * 0.75f;
+        var forceCentri = Target.forward * Body.velocity.magnitude * 0.5f;
+        var moveTowardsCenter = direction * 0.75f;
 
-        //Body.AddForce(moveTowardsCenter, ForceMode.VelocityChange);
-        //Body.AddForce(forceCentri);
-        ////Body.AddForce(Target.forward * Body.velocity.magnitude, );
+        Body.AddForce(moveTowardsCenter, ForceMode.VelocityChange);
+        Body.AddForce(forceCentri);
+        //Body.AddForce(Target.forward * Body.velocity.magnitude, );
 
-        //var direction2 = HingeTarget.position - gameObject.transform.position;
-        ////Body.AddForce(direction2 * 0.75f, ForceMode.VelocityChange);
+        var direction2 = HingeTarget.position - gameObject.transform.position;
+        //Body.AddForce(direction2 * 0.75f, ForceMode.VelocityChange);
     }
 }

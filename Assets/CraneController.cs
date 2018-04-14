@@ -110,7 +110,7 @@ public class CraneController : MonoBehaviour {
 
     private void RiseArm()
     {
-        if(Arm.transform.localRotation.eulerAngles.x > 0)
+        if(Arm.transform.localRotation.eulerAngles.x > 30)
             Arm.transform.Rotate(Vector3.left, ArmRiseSpeed);
     }
 
