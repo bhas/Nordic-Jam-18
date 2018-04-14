@@ -55,6 +55,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4455953557185266}
+  - component: {fileID: 114083474104803402}
   m_Layer: 0
   m_Name: RedHouseRoof
   m_TagString: Untagged
@@ -561,8 +562,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1041966356566714}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.25418562, y: 1.3042746, z: -0.24996924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4195518764833270}
@@ -646,7 +647,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1762183683516340}
   m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0020942, y: 3.604, z: 0}
+  m_LocalPosition: {x: -0.21, y: 3.604, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4455953557185266}
@@ -2146,3 +2147,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.20500018, z: 3}
   m_Center: {x: 1, y: -0.09750009, z: 1.5}
+--- !u!114 &114083474104803402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1041966356566714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660fc5e4a7d1e6b4a84bd9924860104d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: {r: 1, g: 0, b: 0, a: 0}
+  MeshesToColor:
+  - {fileID: 23848215336502922}
+  - {fileID: 23708270860342716}
+  - {fileID: 23933944696441012}
+  - {fileID: 23379662698957262}
+  - {fileID: 23635415846831994}
+  - {fileID: 23267959871790082}
+  - {fileID: 23139722376595650}
+  - {fileID: 23767552378045028}
+  - {fileID: 23964929156061734}
+  - {fileID: 23876623425271406}
+  - {fileID: 23937634454914788}
+  - {fileID: 23338726937241330}

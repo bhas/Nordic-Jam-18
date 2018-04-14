@@ -10,15 +10,10 @@ public class BuildingBlockScript : MonoBehaviour
 	// Use this for initialization
 	void Start () {
         var material = new Material(Shader.Find("Standard"));
-
+        material.color = Color;
         foreach (var mesh in MeshesToColor)
         {
-
+            mesh.material = material;
         }
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }

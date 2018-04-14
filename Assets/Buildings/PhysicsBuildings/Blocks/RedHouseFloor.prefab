@@ -171,6 +171,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4531880087661702}
+  - component: {fileID: 114616283698103820}
   m_Layer: 0
   m_Name: RedHouseFloor
   m_TagString: Untagged
@@ -553,8 +554,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1492374694099622}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2531385, y: -1.6957254, z: -0.24996924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4834709439663458}
@@ -2044,3 +2045,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.9999995, y: 0.3, z: 5.6}
   m_Center: {x: 2.9999998, y: -0.15, z: -2.799999}
+--- !u!114 &114616283698103820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492374694099622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660fc5e4a7d1e6b4a84bd9924860104d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: {r: 1, g: 0, b: 0, a: 0}
+  MeshesToColor:
+  - {fileID: 23331377985303602}
+  - {fileID: 23877749781850974}
+  - {fileID: 23863228681291100}
+  - {fileID: 23844046729073654}
+  - {fileID: 23826073225593844}
+  - {fileID: 23375265822374880}
+  - {fileID: 23191928091144164}
+  - {fileID: 23978761493712384}
+  - {fileID: 23514251295760510}
+  - {fileID: 23544085106172216}
+  - {fileID: 23295156341615084}
+  - {fileID: 23274958299851592}
