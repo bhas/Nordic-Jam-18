@@ -1,17 +1,16 @@
 fileFormatVersion: 2
-guid: d4617e77334795e4a8a167c7d1a6ba21
-timeCreated: 1523695191
+guid: 8405beeb404de8844b89e6272550181f
+timeCreated: 1523716213
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Pillar
+    2100000: Floor
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube.003
-    4300002: pillar
+    4300000: floor
   externalObjects: {}
   materials:
     importMaterials: 1

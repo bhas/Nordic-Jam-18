@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: 8ad124ad09553cf4aab99e5f65824e58
-timeCreated: 1523710840
+guid: 9e1966a2dfcd9fa4cad3e1a545f7ea2e
+timeCreated: 1523716496
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Red
+    2100000: red 2
     2100002: Roof
-    2100004: red 2
     2300000: //RootNode
     3300000: //RootNode
     4300000: roof
