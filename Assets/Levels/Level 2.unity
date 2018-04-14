@@ -10724,6 +10724,7 @@ GameObject:
   - component: {fileID: 1404660531}
   - component: {fileID: 1404660530}
   - component: {fileID: 1404660529}
+  - component: {fileID: 1404660532}
   m_Layer: 0
   m_Name: PavementGroundLayer
   m_TagString: Untagged
@@ -10799,6 +10800,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404660527}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1404660532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404660527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: -0.00000019073559, y: 0.00000004749745, z: 0}
 --- !u!1001 &1417479811
 Prefab:
   m_ObjectHideFlags: 0

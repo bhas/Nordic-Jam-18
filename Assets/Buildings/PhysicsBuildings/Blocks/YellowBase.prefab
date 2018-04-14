@@ -406,6 +406,7 @@ GameObject:
   - component: {fileID: 4277490398845464}
   - component: {fileID: 33884413042606818}
   - component: {fileID: 23487082508890386}
+  - component: {fileID: 65875088074939176}
   m_Layer: 0
   m_Name: baseFloor7x3
   m_TagString: Untagged
@@ -873,7 +874,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1341238689001746}
   m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.201, y: 0.000028729, z: -13.201}
+  m_LocalPosition: {x: 0.354, y: 0, z: -12.981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4818104719714184}
@@ -886,7 +887,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1385749067439352}
   m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.605, y: 0.032807, z: -0.2}
+  m_LocalPosition: {x: 5.53, y: 0.03, z: -0.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4818104719714184}
@@ -1046,7 +1047,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1613015400701624}
   m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6, y: 0.000098944, z: -13.4}
+  m_LocalPosition: {x: 5.408, y: -0, z: -12.968}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4818104719714184}
@@ -1059,7 +1060,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1953571602735838}
   m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.205, y: 0.032807, z: -0.2}
+  m_LocalPosition: {x: 0.26, y: 0.03, z: -0.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4818104719714184}
@@ -3714,6 +3715,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 2.7, z: 0.6000109}
   m_Center: {x: 0.3, y: 1.3499979, z: -0.30000544}
+--- !u!65 &65875088074939176
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411530190984432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.9999995, y: 0.3, z: 5.6}
+  m_Center: {x: 2.9999998, y: -0.15, z: -2.799999}
 --- !u!65 &65992039429461154
 BoxCollider:
   m_ObjectHideFlags: 1
