@@ -34,7 +34,7 @@ public class GenerateWorld : MonoBehaviour {
 
     void Generate(float p1, float p2, float p3)
     {
-
+        float AP = p1 + p3; 
 
 
 
