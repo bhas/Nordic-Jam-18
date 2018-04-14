@@ -2675,8 +2675,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660fc5e4a7d1e6b4a84bd9924860104d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrimaryColor: {fileID: 2100000, guid: e9bd0eff49002d946bdb83833fd4be38, type: 2}
-  SecondaryColor: {fileID: 2100000, guid: 8500a9be9d98e104cafab16e9cd36b1a, type: 2}
+  PrimaryColor: {fileID: 2100006, guid: ca3f73aa125f4bc4998c45c8ed601fb8, type: 3}
+  SecondaryColor: {fileID: 2100000, guid: 8fd5e1027da29d8428935dc114fa444f, type: 2}
   RoofColor: {fileID: 2100000, guid: 90243d34a0b371d4b84bd96bd457a9de, type: 2}
   MeshesToColor:
   - {fileID: 23405939551247466}
