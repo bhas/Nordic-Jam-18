@@ -7,16 +7,24 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: window
+    100004: window top
     400000: //RootNode
     400002: window
+    400004: window top
     2100000: Red
     2100002: window
+    2100004: red 2
+    2100006: Material
     2300000: //RootNode
     2300002: window
+    2300004: window top
     3300000: //RootNode
     3300002: window
+    3300004: window top
     4300000: window fasade
     4300002: window
+    4300004: fasade window
+    4300006: window top
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -66,7 +74,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
