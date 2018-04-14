@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 23480918077753946}
   - component: {fileID: 54372721860128432}
   - component: {fileID: 65247487604509588}
+  - component: {fileID: 114337636768455676}
   m_Layer: 0
   m_Name: fasade-friendo (6)
   m_TagString: Untagged
@@ -93,6 +94,7 @@ GameObject:
   - component: {fileID: 23484623834861588}
   - component: {fileID: 65216285574614728}
   - component: {fileID: 54617223705304594}
+  - component: {fileID: 114120195309505084}
   m_Layer: 0
   m_Name: floor3x3
   m_TagString: Untagged
@@ -130,6 +132,7 @@ GameObject:
   - component: {fileID: 23405939551247466}
   - component: {fileID: 54936391450981474}
   - component: {fileID: 65953944690215512}
+  - component: {fileID: 114927274419167334}
   m_Layer: 0
   m_Name: fasade-friendo (2)
   m_TagString: Untagged
@@ -200,6 +203,7 @@ GameObject:
   - component: {fileID: 23953319254713852}
   - component: {fileID: 54250503169284826}
   - component: {fileID: 65606029563974436}
+  - component: {fileID: 114502983475262814}
   m_Layer: 0
   m_Name: fasade-window-friendo (1)
   m_TagString: Untagged
@@ -219,6 +223,7 @@ GameObject:
   - component: {fileID: 23549089434140794}
   - component: {fileID: 54393165871816262}
   - component: {fileID: 65786633124759612}
+  - component: {fileID: 114253764800426090}
   m_Layer: 0
   m_Name: fasade-friendo (4)
   m_TagString: Untagged
@@ -238,6 +243,7 @@ GameObject:
   - component: {fileID: 23381687948516752}
   - component: {fileID: 65849965208078434}
   - component: {fileID: 54358574322751918}
+  - component: {fileID: 114832155304499908}
   m_Layer: 0
   m_Name: pillar (2)
   m_TagString: Untagged
@@ -257,6 +263,7 @@ GameObject:
   - component: {fileID: 23894934551106158}
   - component: {fileID: 54713822998665086}
   - component: {fileID: 65838435127641894}
+  - component: {fileID: 114340558663454320}
   m_Layer: 0
   m_Name: fasade-friendo (3)
   m_TagString: Untagged
@@ -343,6 +350,7 @@ GameObject:
   - component: {fileID: 23182475288426970}
   - component: {fileID: 65979930492889732}
   - component: {fileID: 54182106409232380}
+  - component: {fileID: 114983222827664278}
   m_Layer: 0
   m_Name: pillar
   m_TagString: Untagged
@@ -362,6 +370,7 @@ GameObject:
   - component: {fileID: 23274199962334008}
   - component: {fileID: 54207757762485054}
   - component: {fileID: 65106928253064178}
+  - component: {fileID: 114193269176052846}
   m_Layer: 0
   m_Name: fasade-friendo (5)
   m_TagString: Untagged
@@ -381,6 +390,7 @@ GameObject:
   - component: {fileID: 23395813028389668}
   - component: {fileID: 54849029307806942}
   - component: {fileID: 65096435183931930}
+  - component: {fileID: 114124355774700520}
   m_Layer: 0
   m_Name: fasade-window-friendo
   m_TagString: Untagged
@@ -400,6 +410,7 @@ GameObject:
   - component: {fileID: 23976831290099670}
   - component: {fileID: 54697245352457570}
   - component: {fileID: 65232344891381330}
+  - component: {fileID: 114304365627823560}
   m_Layer: 0
   m_Name: fasade-door-friendo
   m_TagString: Untagged
@@ -419,6 +430,7 @@ GameObject:
   - component: {fileID: 23555434939143726}
   - component: {fileID: 65426061557268098}
   - component: {fileID: 54241376180986132}
+  - component: {fileID: 114264458147706886}
   m_Layer: 0
   m_Name: pillar (3)
   m_TagString: Untagged
@@ -438,6 +450,7 @@ GameObject:
   - component: {fileID: 23617544642737286}
   - component: {fileID: 54060565454577762}
   - component: {fileID: 65117878729967964}
+  - component: {fileID: 114134039580504194}
   m_Layer: 0
   m_Name: fasade-friendo
   m_TagString: Untagged
@@ -457,6 +470,7 @@ GameObject:
   - component: {fileID: 23419689699015216}
   - component: {fileID: 65076640584662636}
   - component: {fileID: 54346955730737464}
+  - component: {fileID: 114939083724993770}
   m_Layer: 0
   m_Name: pillar (1)
   m_TagString: Untagged
@@ -476,6 +490,7 @@ GameObject:
   - component: {fileID: 23236453279438488}
   - component: {fileID: 54193373538190966}
   - component: {fileID: 65004945861956080}
+  - component: {fileID: 114439560620227350}
   m_Layer: 0
   m_Name: fasade-window-friendo (2)
   m_TagString: Untagged
@@ -495,6 +510,7 @@ GameObject:
   - component: {fileID: 23251343116778664}
   - component: {fileID: 54199869704073608}
   - component: {fileID: 65952119515679248}
+  - component: {fileID: 114256821399806922}
   m_Layer: 0
   m_Name: fasade-friendo (1)
   m_TagString: Untagged
@@ -514,6 +530,7 @@ GameObject:
   - component: {fileID: 23551262573974864}
   - component: {fileID: 54924059143247112}
   - component: {fileID: 65083951542784368}
+  - component: {fileID: 114954517139402344}
   m_Layer: 0
   m_Name: fasade-window-friendo (3)
   m_TagString: Untagged
@@ -2045,7 +2062,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54182106409232380
 Rigidbody:
@@ -2060,7 +2077,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54193373538190966
 Rigidbody:
@@ -2075,7 +2092,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54199869704073608
 Rigidbody:
@@ -2090,7 +2107,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54207757762485054
 Rigidbody:
@@ -2105,7 +2122,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54241376180986132
 Rigidbody:
@@ -2120,7 +2137,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54250503169284826
 Rigidbody:
@@ -2135,7 +2152,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54346955730737464
 Rigidbody:
@@ -2150,7 +2167,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54358574322751918
 Rigidbody:
@@ -2165,7 +2182,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54372721860128432
 Rigidbody:
@@ -2180,7 +2197,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54393165871816262
 Rigidbody:
@@ -2195,7 +2212,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54617223705304594
 Rigidbody:
@@ -2210,7 +2227,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54697245352457570
 Rigidbody:
@@ -2225,7 +2242,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54713822998665086
 Rigidbody:
@@ -2240,7 +2257,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54849029307806942
 Rigidbody:
@@ -2255,7 +2272,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54924059143247112
 Rigidbody:
@@ -2270,7 +2287,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!54 &54936391450981474
 Rigidbody:
@@ -2285,7 +2302,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &65004945861956080
 BoxCollider:
@@ -2503,6 +2520,138 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 2.7, z: 0.6000109}
   m_Center: {x: 0.3, y: 1.3499979, z: -0.30000544}
+--- !u!114 &114120195309505084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217625014016164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114124355774700520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1669671511869034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114134039580504194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872599124885506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114193269176052846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1600826942638276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114253764800426090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1385105649539938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114256821399806922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970394675995356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114264458147706886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848421571537718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114304365627823560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763252051527208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114337636768455676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1136254469707168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114340558663454320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1448965015565792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114439560620227350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910087728081820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114502983475262814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1382287172601348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114774496515707084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2516,6 +2665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PrimaryColor: {r: 1, g: 0, b: 0, a: 0}
   SecondaryColor: {r: 1, g: 1, b: 1, a: 0}
+  RoofColor: {r: 0, g: 0, b: 0, a: 0}
   MeshesToColor:
   - {fileID: 23405939551247466}
   - {fileID: 23551262573974864}
@@ -2529,3 +2679,58 @@ MonoBehaviour:
   - {fileID: 23251343116778664}
   - {fileID: 23395813028389668}
   - {fileID: 23617544642737286}
+--- !u!114 &114832155304499908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395266737531936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114927274419167334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252945919394190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114939083724993770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904249893906106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114954517139402344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1987169384726746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114983222827664278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517172527018118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f55dd7c72273be4da46f583d4275cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

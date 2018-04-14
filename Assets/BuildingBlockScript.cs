@@ -5,13 +5,25 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class BuildingBlockScript : MonoBehaviour
 {
+    [Header("Color")]
     public Color PrimaryColor;
     public Color SecondaryColor;
     public Color RoofColor;
     public List<MeshRenderer> MeshesToColor;
+    [Space]
+    [Header("Setting")]
+    public bool ShouldBeDestroyed = false;
 
-	// Use this for initialization
-	void Update () {
+    void Start()
+    {
+        foreach(var piece in GetComponentsInChildren<DestructablePieceScript>())
+        {
+            piece.ShouldBeDestroyed = ShouldBeDestroyed;
+        }
+    }
+
+    // Use this for initialization
+    void Update () {
         var primaryMaterial = new Material(Shader.Find("Standard"));
         var secondaryMaterial = new Material(Shader.Find("Standard"));
         var roofMaterial = new Material(Shader.Find("Standard"));
