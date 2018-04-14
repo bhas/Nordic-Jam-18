@@ -1,22 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class LineRendererController : MonoBehaviour
 {
     private LineRenderer lineRenderer;
-    private SpringJoint joint;
+    private HingeJoint joint;
+    public List<Transform> HingePoints;
 
     // Use this for initialization
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        joint = GetComponentInParent<SpringJoint>();
+        joint = GetComponentInParent<HingeJoint>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        lineRenderer.SetPositions(new Vector3[] { this.gameObject.transform.parent.position, joint.connectedBody.transform.position });
+        lineRenderer.SetPositions(HingePoints.Select(t => t.position).ToArray());
     }
 }

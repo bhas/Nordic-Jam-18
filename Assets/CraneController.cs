@@ -8,6 +8,7 @@ public class CraneController : MonoBehaviour {
     public GameObject ArmExtension;
     public GameObject Base;
     public SpringJoint Joint;
+    public AnchorPointAligner AnchorPointAligner;
 
     [Header("Arm control")]
     public float ArmRiseSpeed;
@@ -128,19 +129,17 @@ public class CraneController : MonoBehaviour {
 
     private void ExtendCable()
     {
-        if (Joint.minDistance < 6.5 && Joint.maxDistance < 6.5)
+        if (AnchorPointAligner.Distance < 6.5)
         {
-            Joint.maxDistance += CableSpeed;
-            Joint.minDistance += CableSpeed;
+            AnchorPointAligner.Distance += CableSpeed;
         }
     }
 
     private void RetractCable()
     {
-        if(Joint.minDistance > 0 && Joint.maxDistance > 0)
+        if(AnchorPointAligner.Distance > 1)
         {
-            Joint.maxDistance -= CableSpeed;
-            Joint.minDistance -= CableSpeed;
+            AnchorPointAligner.Distance -= CableSpeed;
         }
     }
 
