@@ -55,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1751441118429686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 1.796848, z: 0.7}
+  m_LocalPosition: {x: 0.7, y: 2.91, z: 0.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4473353880628420}
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d313f04fdbce5b42aec25b5e5c6250f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HingePoints: []
 --- !u!120 &120408553714606772
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -251,7 +252,7 @@ SpringJoint:
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.03319949, y: -4.1047335, z: -0.14905816}
+  m_ConnectedAnchor: {x: 0.03319949, y: -3.8915813, z: -0.14905816}
   serializedVersion: 2
   m_Spring: 10000
   m_Damper: 10000
