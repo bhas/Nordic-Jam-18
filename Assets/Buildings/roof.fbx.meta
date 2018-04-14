@@ -1,17 +1,68 @@
 fileFormatVersion: 2
-guid: 9e1966a2dfcd9fa4cad3e1a545f7ea2e
-timeCreated: 1523716496
+guid: ca3f73aa125f4bc4998c45c8ed601fb8
+timeCreated: 1523720649
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: Door
+    100002: fasade
+    100004: fasade door
+    100006: fasade window
+    100008: floor
+    100010: pillar
+    100012: roof
+    100014: //RootNode
+    100016: window
+    100018: window top
+    400000: Door
+    400002: fasade
+    400004: fasade door
+    400006: fasade window
+    400008: floor
+    400010: pillar
+    400012: roof
+    400014: //RootNode
+    400016: window
+    400018: window top
     2100000: red 2
     2100002: Roof
-    2300000: //RootNode
-    3300000: //RootNode
+    2100004: Floor
+    2100006: Red
+    2100008: Material
+    2100010: window
+    2100012: Door
+    2100014: Handle
+    2100016: Pillar
+    2300000: Door
+    2300002: fasade
+    2300004: fasade door
+    2300006: fasade window
+    2300008: floor
+    2300010: pillar
+    2300012: roof
+    2300014: window
+    2300016: window top
+    2300018: //RootNode
+    3300000: Door
+    3300002: fasade
+    3300004: fasade door
+    3300006: fasade window
+    3300008: floor
+    3300010: pillar
+    3300012: roof
+    3300014: window
+    3300016: window top
+    3300018: //RootNode
     4300000: roof
+    4300002: floor
+    4300004: fasade window
+    4300006: window top
+    4300008: window
+    4300010: fasade door
+    4300012: Door
+    4300014: pillar
+    4300016: fasade
   externalObjects: {}
   materials:
     importMaterials: 1
