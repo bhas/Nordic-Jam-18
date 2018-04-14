@@ -7,7 +7,7 @@ public class CraneController : MonoBehaviour {
     public GameObject Arm;
     public GameObject ArmExtension;
     public GameObject Base;
-    public GameObject Crane;
+    public SpringJoint Joint;
 
     [Header("Arm control")]
     public float ArmRiseSpeed;
@@ -19,12 +19,13 @@ public class CraneController : MonoBehaviour {
 
     [Header("Base control")]
     public float BaseTurnSpeed;
+    public float CableSpeed;
 
     void Start () {
 		
 	}
 	
-	void Update ()
+	void FixedUpdate ()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
@@ -63,7 +64,32 @@ public class CraneController : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.S))
         {
-            Decelerate();
+            LowerArm();
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            ExtendArm();
+        }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            RetractArm();
+        }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            RetractArm();
+        }
+
+        if (Input.GetKey(KeyCode.RightShift))
+        {
+            ExtendCable();
+        }
+
+        if (Input.GetKey(KeyCode.Minus))
+        {
+            RetractCable();
         }
     }
 
@@ -71,22 +97,26 @@ public class CraneController : MonoBehaviour {
 
     private void ExtendArm()
     {
-        ArmExtension.transform.Translate(Vector3.forward);
+        if(ArmExtension.transform.localPosition.z < 4.8)
+            ArmExtension.transform.Translate(Vector3.forward * ArmExtendSpeed);
     }
 
     private void RetractArm()
     {
-        ArmExtension.transform.Translate(Vector3.back);
+        if (ArmExtension.transform.localPosition.z > 0)
+            ArmExtension.transform.Translate(Vector3.back * ArmExtendSpeed);
     }
 
     private void RiseArm()
     {
-        Arm.transform.Rotate(Vector3.left, ArmRiseSpeed);
+        if(Arm.transform.localRotation.eulerAngles.x > 0)
+            Arm.transform.Rotate(Vector3.left, ArmRiseSpeed);
     }
 
     private void LowerArm()
     {
-        Arm.transform.Rotate(Vector3.left, -ArmRiseSpeed);
+        if (Arm.transform.localRotation.eulerAngles.x < 70)
+            Arm.transform.Rotate(Vector3.left, -ArmRiseSpeed);
     }
 
     private void TurnBase(bool clockwise)
@@ -98,12 +128,20 @@ public class CraneController : MonoBehaviour {
 
     private void ExtendCable()
     {
-
+        if (Joint.minDistance < 6.5 && Joint.maxDistance < 6.5)
+        {
+            Joint.maxDistance += CableSpeed;
+            Joint.minDistance += CableSpeed;
+        }
     }
 
     private void RetractCable()
     {
-
+        if(Joint.minDistance > 0 && Joint.maxDistance > 0)
+        {
+            Joint.maxDistance -= CableSpeed;
+            Joint.minDistance -= CableSpeed;
+        }
     }
 
     private void TurnCrane(bool clockwise)
