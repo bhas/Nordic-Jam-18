@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 32f6bdbbbef1d1841acf7b84bdeedcd1
-timeCreated: 1523695865
+guid: 8ad124ad09553cf4aab99e5f65824e58
+timeCreated: 1523710840
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -8,16 +8,12 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: Red
-    2100002: red 2
+    2100002: Roof
+    2100004: red 2
     2300000: //RootNode
     3300000: //RootNode
-    4300000: fasade
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Red
-    second: {fileID: 2100000, guid: f256399320f84cf4cb91249182c87daa, type: 3}
+    4300000: roof
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
