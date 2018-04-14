@@ -17,4 +17,16 @@ public class GameController : MonoBehaviour {
             return _instance;
         }
     }
+
+    //Awake is always called before any Start functions
+    void Awake()
+    {
+        if (_instance == null)
+            _instance = this;
+        else if (_instance != this)
+            Destroy(gameObject);
+
+        //Sets this to not be destroyed when reloading scene
+        DontDestroyOnLoad(gameObject);
+    }
 }

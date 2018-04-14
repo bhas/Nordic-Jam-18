@@ -31,8 +31,9 @@ public class DestructablePieceScript : MonoBehaviour
         if (collision.relativeVelocity.magnitude > Threshold)
         {
             GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+            if(!Destroyed)
+                GameController.Instance.Score += ShouldBeDestroyed ? 1 : -1;
             Destroyed = true;
-            GameController.Instance.Score += ShouldBeDestroyed ? 1 : -1;
         }
     }
 
