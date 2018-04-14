@@ -6,9 +6,9 @@ using UnityEngine;
 public class BuildingBlockScript : MonoBehaviour
 {
     [Header("Color")]
-    public Color PrimaryColor;
-    public Color SecondaryColor;
-    public Color RoofColor;
+    public Material PrimaryColor;
+    public Material SecondaryColor;
+    public Material RoofColor;
     public List<MeshRenderer> MeshesToColor;
     [Space]
     [Header("Setting")]
@@ -24,20 +24,12 @@ public class BuildingBlockScript : MonoBehaviour
 
     // Use this for initialization
     void Update () {
-        var primaryMaterial = new Material(Shader.Find("Standard"));
-        var secondaryMaterial = new Material(Shader.Find("Standard"));
-        var roofMaterial = new Material(Shader.Find("Standard"));
-
-        primaryMaterial.color = PrimaryColor;
-        secondaryMaterial.color = SecondaryColor;
-        roofMaterial.color = RoofColor;
-
         foreach (var mesh in MeshesToColor)
         {
-            if(mesh.materials.Length == 3)
-                mesh.materials = new Material[] { roofMaterial, mesh.materials[1], mesh.materials[2] };
+            if(mesh.sharedMaterials.Length == 3)
+                mesh.sharedMaterials = new Material[] { RoofColor, mesh.sharedMaterials[1], mesh.sharedMaterials[2] };
             else
-                mesh.materials = new Material[] { primaryMaterial, secondaryMaterial};
+                mesh.sharedMaterials = new Material[] { PrimaryColor, SecondaryColor };
         }
 	}
 }
