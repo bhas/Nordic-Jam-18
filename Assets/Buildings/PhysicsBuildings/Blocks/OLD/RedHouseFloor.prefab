@@ -2056,7 +2056,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660fc5e4a7d1e6b4a84bd9924860104d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: {r: 1, g: 0, b: 0, a: 0}
+  PrimaryColor: {r: 0, g: 0, b: 0, a: 0}
+  SecondaryColor: {r: 0, g: 0, b: 0, a: 0}
+  RoofColor: {r: 0, g: 0, b: 0, a: 0}
   MeshesToColor:
   - {fileID: 23331377985303602}
   - {fileID: 23877749781850974}

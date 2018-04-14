@@ -2460,6 +2460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PrimaryColor: {r: 1, g: 0, b: 0, a: 0}
   SecondaryColor: {r: 0.6764706, g: 0.6764706, b: 0.6764706, a: 0}
+  RoofColor: {r: 0, g: 0, b: 0, a: 0}
   MeshesToColor:
   - {fileID: 23848215336502922}
   - {fileID: 23708270860342716}
