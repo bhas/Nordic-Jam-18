@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 8b41baa6790479a4ab7cf53105a98b4e
+timeCreated: 1523694664
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.006
+    100014: Cube.007
+    100016: floor
+    100018: floor.001
+    100020: floor.002
+    100022: //RootNode
+    100024: reference fasade
+    100026: reference fasade.001
+    100028: reference fasade.002
+    100030: reference fasade.003
+    100032: reference fasade.004
+    100034: reference fasade.005
+    100036: reference fasade.006
+    100038: reference fasade.007
+    100040: reference fasade.008
+    100042: reference fasade.009
+    100044: reference fasade.010
+    100046: reference fasade.011
+    100048: reference fasade.012
+    100050: reference fasade.013
+    100052: reference fasade.014
+    100054: reference fasade.015
+    100056: reference fasade.016
+    100058: reference fasade.017
+    100060: reference fasade.019
+    100062: reference fasade.020
+    100064: reference fasade.021
+    100066: reference fasade.022
+    100068: reference fasade.023
+    100070: reference fasade.024
+    400000: Cube
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.006
+    400014: Cube.007
+    400016: floor
+    400018: floor.001
+    400020: floor.002
+    400022: //RootNode
+    400024: reference fasade
+    400026: reference fasade.001
+    400028: reference fasade.002
+    400030: reference fasade.003
+    400032: reference fasade.004
+    400034: reference fasade.005
+    400036: reference fasade.006
+    400038: reference fasade.007
+    400040: reference fasade.008
+    400042: reference fasade.009
+    400044: reference fasade.010
+    400046: reference fasade.011
+    400048: reference fasade.012
+    400050: reference fasade.013
+    400052: reference fasade.014
+    400054: reference fasade.015
+    400056: reference fasade.016
+    400058: reference fasade.017
+    400060: reference fasade.019
+    400062: reference fasade.020
+    400064: reference fasade.021
+    400066: reference fasade.022
+    400068: reference fasade.023
+    400070: reference fasade.024
+    2100000: Floor
+    2100002: No Name
+    2100004: Red
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.006
+    2300014: Cube.007
+    2300016: floor
+    2300018: floor.001
+    2300020: floor.002
+    2300022: reference fasade
+    2300024: reference fasade.001
+    2300026: reference fasade.002
+    2300028: reference fasade.003
+    2300030: reference fasade.004
+    2300032: reference fasade.005
+    2300034: reference fasade.006
+    2300036: reference fasade.007
+    2300038: reference fasade.008
+    2300040: reference fasade.009
+    2300042: reference fasade.010
+    2300044: reference fasade.011
+    2300046: reference fasade.012
+    2300048: reference fasade.013
+    2300050: reference fasade.014
+    2300052: reference fasade.015
+    2300054: reference fasade.016
+    2300056: reference fasade.017
+    2300058: reference fasade.019
+    2300060: reference fasade.020
+    2300062: reference fasade.021
+    2300064: reference fasade.022
+    2300066: reference fasade.023
+    2300068: reference fasade.024
+    2300070: //RootNode
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.006
+    3300014: Cube.007
+    3300016: floor
+    3300018: floor.001
+    3300020: floor.002
+    3300022: reference fasade
+    3300024: reference fasade.001
+    3300026: reference fasade.002
+    3300028: reference fasade.003
+    3300030: reference fasade.004
+    3300032: reference fasade.005
+    3300034: reference fasade.006
+    3300036: reference fasade.007
+    3300038: reference fasade.008
+    3300040: reference fasade.009
+    3300042: reference fasade.010
+    3300044: reference fasade.011
+    3300046: reference fasade.012
+    3300048: reference fasade.013
+    3300050: reference fasade.014
+    3300052: reference fasade.015
+    3300054: reference fasade.016
+    3300056: reference fasade.017
+    3300058: reference fasade.019
+    3300060: reference fasade.020
+    3300062: reference fasade.021
+    3300064: reference fasade.022
+    3300066: reference fasade.023
+    3300068: reference fasade.024
+    3300070: //RootNode
+    4300000: floor
+    4300002: reference fasade.015
+    4300004: reference fasade.014
+    4300006: reference fasade.024
+    4300008: reference fasade.023
+    4300010: reference fasade.022
+    4300012: reference fasade.021
+    4300014: Cube.007
+    4300016: Cube.006
+    4300018: Cube.005
+    4300020: Cube.004
+    4300022: reference fasade.020
+    4300024: reference fasade.019
+    4300026: reference fasade.017
+    4300028: reference fasade.016
+    4300030: reference fasade.013
+    4300032: reference fasade.012
+    4300034: floor.001
+    4300036: reference fasade.011
+    4300038: reference fasade.010
+    4300040: reference fasade.009
+    4300042: reference fasade.008
+    4300044: reference fasade.007
+    4300046: reference fasade.006
+    4300048: reference fasade.005
+    4300050: reference fasade.004
+    4300052: reference fasade.003
+    4300054: Cube.003
+    4300056: Cube.002
+    4300058: Cube.001
+    4300060: Cube
+    4300062: reference fasade.002
+    4300064: reference fasade.001
+    4300066: floor.002
+    4300068: reference fasade
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
