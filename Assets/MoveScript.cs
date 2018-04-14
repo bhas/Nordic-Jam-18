@@ -17,6 +17,6 @@ public class MoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _rigidbody.AddForce(Direction);
+        _rigidbody.AddForce(Direction, ForceMode.VelocityChange);
     }
 }
