@@ -161,24 +161,8 @@ Prefab:
         type: 2}
       propertyPath: m_ConnectedBody
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 145098149626229956, guid: 59e912e8b8127e2489fd57cfeddbff70,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 145098149626229956, guid: 59e912e8b8127e2489fd57cfeddbff70,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.y
-      value: 2.296848
-      objectReference: {fileID: 0}
-    - target: {fileID: 145098149626229956, guid: 59e912e8b8127e2489fd57cfeddbff70,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.z
-      value: 0.7
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114701025520214992, guid: 59e912e8b8127e2489fd57cfeddbff70, type: 2}
+      objectReference: {fileID: 1286644446}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59e912e8b8127e2489fd57cfeddbff70, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &927559223
@@ -225,13 +209,19 @@ Prefab:
       propertyPath: Joint
       value: 
       objectReference: {fileID: 373787675}
-    - target: {fileID: 1472561200558026, guid: 87c5c05e84cb7464691eb5a836640486, type: 2}
-      propertyPath: m_TagString
-      value: AlignerPoint
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87c5c05e84cb7464691eb5a836640486, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &955947302 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4188945487218374, guid: 87c5c05e84cb7464691eb5a836640486,
+    type: 2}
+  m_PrefabInternal: {fileID: 927559223}
+--- !u!54 &1286644446 stripped
+Rigidbody:
+  m_PrefabParentObject: {fileID: 54923968478256724, guid: 605e4c6ab40c17145b14657cad842076,
+    type: 2}
+  m_PrefabInternal: {fileID: 1423616158}
 --- !u!1 &1311489061
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,15 +342,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1931321171137290, guid: 605e4c6ab40c17145b14657cad842076, type: 2}
-      propertyPath: m_TagString
-      value: AnchorPoint
-      objectReference: {fileID: 0}
     - target: {fileID: 114557852157438132, guid: 605e4c6ab40c17145b14657cad842076,
         type: 2}
       propertyPath: AnchorLocator
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 955947302}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 605e4c6ab40c17145b14657cad842076, type: 2}
   m_IsPrefabParent: 0
