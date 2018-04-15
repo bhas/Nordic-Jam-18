@@ -186,7 +186,7 @@ public class CraneController : MonoBehaviour
 
         //PSFrontRight.Stop();
         //PSFrontLeft.Stop();
-        SoundController.Instance.TrunkPitch(1.5);
+        SoundController.Instance.TrunkPitch(1.5f);
         //gameObject.GetComponent<Rigidbody>().AddForce(-Vector3.forward * CraneSpeed, ForceMode.VelocityChange);
         gameObject.transform.Translate(Vector3.forward * CraneSpeed * Time.timeScale);
     }
@@ -199,7 +199,7 @@ public class CraneController : MonoBehaviour
         //PSFrontRight.Play();
         //PSFrontLeft.Play();
 
-        SoundController.Instance.TrunkPitch(1.5);
+        SoundController.Instance.TrunkPitch(1.5f);
 
         //gameObject.GetComponent<Rigidbody>().AddForce(-Vector3.back * CraneSpeed, ForceMode.VelocityChange);
         gameObject.transform.Translate(Vector3.back * CraneSpeed * Time.timeScale);
