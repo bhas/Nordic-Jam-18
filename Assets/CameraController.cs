@@ -22,7 +22,7 @@ public class CameraController : MonoBehaviour {
         var lerped = Vector3.Lerp(Target.position, Ball.position, LerpAmount);
         gameObject.transform.LookAt(lerped);
 
-        gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, targetPos, 0.8f * Time.deltaTime);
+        gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, targetPos, 1.5f * Time.deltaTime);
 
 	}
 }
