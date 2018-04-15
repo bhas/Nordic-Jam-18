@@ -54,14 +54,11 @@ public class CraneController : MonoBehaviour
             Decelerate();
         }
 
-        //if (!Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
-        //{
-        //    print("Stopping");
-        //    PSFrontRight.Stop();
-        //    PSFrontLeft.Stop();
-        //    PSBackRight.Stop();
-        //    PSBackLeft.Stop();
-        //}
+        if (!Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
+        {
+            print("Stopping");
+            SoundController.Instance.TrunkPitch(1);
+        }
 
 
 
@@ -189,7 +186,7 @@ public class CraneController : MonoBehaviour
 
         //PSFrontRight.Stop();
         //PSFrontLeft.Stop();
-
+        SoundController.Instance.TrunkPitch(1.5);
         //gameObject.GetComponent<Rigidbody>().AddForce(-Vector3.forward * CraneSpeed, ForceMode.VelocityChange);
         gameObject.transform.Translate(Vector3.forward * CraneSpeed * Time.timeScale);
     }
@@ -201,6 +198,9 @@ public class CraneController : MonoBehaviour
 
         //PSFrontRight.Play();
         //PSFrontLeft.Play();
+
+        SoundController.Instance.TrunkPitch(1.5);
+
         //gameObject.GetComponent<Rigidbody>().AddForce(-Vector3.back * CraneSpeed, ForceMode.VelocityChange);
         gameObject.transform.Translate(Vector3.back * CraneSpeed * Time.timeScale);
     }

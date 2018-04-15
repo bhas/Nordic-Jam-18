@@ -13,12 +13,16 @@ public class BuildingBlockScript : MonoBehaviour
     [Space]
     [Header("Setting")]
     public bool ShouldBeDestroyed = false;
+    public bool Neutral = false;
 
     void Start()
     {
         foreach(var piece in GetComponentsInChildren<DestructablePieceScript>())
         {
             piece.ShouldBeDestroyed = ShouldBeDestroyed;
+            piece.Neutral = Neutral;
+            if (ShouldBeDestroyed)
+                GameController.Instance.GoodThing();
         }
     }
 

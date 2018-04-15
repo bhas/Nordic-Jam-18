@@ -8,6 +8,7 @@ public class DestructablePieceScript : MonoBehaviour
     private float Threshold = 1.5f;
     private int Time = 400;
     private bool Destroyed = false;
+    public bool Neutral = false;
     public bool ShouldBeDestroyed = false;
 
     void Update()
@@ -34,7 +35,10 @@ public class DestructablePieceScript : MonoBehaviour
             if (!Destroyed)
             {
                 GameController.Instance.Trigger();
-                GameController.Instance.Score += ShouldBeDestroyed ? 1 : -1;
+                if (ShouldBeDestroyed)
+                    GameController.Instance.Score += 1;
+                else if (!Neutral)
+                    GameController.Instance.Negative += 1;
             }
             Destroyed = true;
 

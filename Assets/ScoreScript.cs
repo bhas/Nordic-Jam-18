@@ -7,6 +7,6 @@ public class ScoreScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        GetComponent<Text>().text = "Breaking points: " + GameController.Instance.Score;
-	}
+        GetComponent<Text>().text = "Breaking points: " + (GameController.Instance.Score - GameController.Instance.Negative);
+    }
 }

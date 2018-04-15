@@ -5,8 +5,10 @@ using UnityEngine;
 public class SoundController : MonoBehaviour {
 
     public AudioSource Source;
+    public AudioSource Trunk;
     public AudioClip WreckingSound;
     public AudioClip Explosion;
+    public AudioClip TargetSound;
 
     private static SoundController _instance;
     public static SoundController Instance
@@ -30,9 +32,6 @@ public class SoundController : MonoBehaviour {
 
         Time.timeScale = 1;
         Time.fixedDeltaTime = 0.02F * Time.timeScale;
-
-        //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
     }
 
     public void PlaySound(AudioClip clip)
@@ -40,4 +39,8 @@ public class SoundController : MonoBehaviour {
         Source.PlayOneShot(clip);
     }
 
+    public void TrunkPitch(float pitch)
+    {
+        Trunk.pitch = pitch;
+    }
 }
