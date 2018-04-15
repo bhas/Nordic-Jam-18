@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CraneController : MonoBehaviour {
+public class CraneController : MonoBehaviour
+{
 
     public GameObject Arm;
     public GameObject ArmExtension;
@@ -22,21 +23,47 @@ public class CraneController : MonoBehaviour {
     public float BaseTurnSpeed;
     public float CableSpeed;
 
-    void Start () {
-		
-	}
-	
-	void FixedUpdate ()
+
+    public ParticleSystem PSFrontRight;
+    public ParticleSystem PSFrontLeft;
+    public ParticleSystem PSBackRight;
+    public ParticleSystem PSBackLeft;
+
+    void Start()
+    {
+
+    }
+
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             TurnCrane(false);
         }
-
         if (Input.GetKey(KeyCode.RightArrow))
         {
             TurnCrane(true);
         }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            Accelerate();
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            Decelerate();
+        }
+
+        //if (!Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
+        //{
+        //    print("Stopping");
+        //    PSFrontRight.Stop();
+        //    PSFrontLeft.Stop();
+        //    PSBackRight.Stop();
+        //    PSBackLeft.Stop();
+        //}
+
+
 
         if (Input.GetKey(KeyCode.A))
         {
@@ -46,16 +73,6 @@ public class CraneController : MonoBehaviour {
         if (Input.GetKey(KeyCode.D))
         {
             TurnBase(true);
-        }
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            Accelerate();
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            Decelerate();
         }
 
         if (Input.GetKey(KeyCode.W))
@@ -92,44 +109,46 @@ public class CraneController : MonoBehaviour {
         {
             RetractCable();
         }
+
+
     }
 
     #region Arm
 
     private void ExtendArm()
     {
-        if(ArmExtension.transform.localPosition.z < 4.8)
-            ArmExtension.transform.Translate(Vector3.forward * ArmExtendSpeed);
+        if (ArmExtension.transform.localPosition.z < 4.8)
+            ArmExtension.transform.Translate(Vector3.forward * ArmExtendSpeed * Time.timeScale);
     }
 
     private void RetractArm()
     {
         if (ArmExtension.transform.localPosition.z > 0)
-            ArmExtension.transform.Translate(Vector3.back * ArmExtendSpeed);
+            ArmExtension.transform.Translate(Vector3.back * ArmExtendSpeed * Time.timeScale);
     }
 
     private void RiseArm()
     {
-        if(Arm.transform.localRotation.eulerAngles.x > 30)
-            Arm.transform.Rotate(Vector3.left, ArmRiseSpeed);
+        if (Arm.transform.localRotation.eulerAngles.x > 30)
+            Arm.transform.Rotate(Vector3.left, ArmRiseSpeed * Time.timeScale);
     }
 
     private void LowerArm()
     {
         if (Arm.transform.localRotation.eulerAngles.x < 70)
-            Arm.transform.Rotate(Vector3.left, -ArmRiseSpeed);
+            Arm.transform.Rotate(Vector3.left, -ArmRiseSpeed * Time.timeScale);
     }
 
     private void TurnBase(bool clockwise)
     {
-        Base.transform.Rotate(Vector3.forward, BaseTurnSpeed * (clockwise ? 1 : -1));
+        Base.transform.Rotate(Vector3.forward, BaseTurnSpeed * (clockwise ? 1 : -1) * Time.timeScale);
     }
 
     #endregion
 
     private void ExtendCable()
     {
-        if (AnchorPointAligner.Distance < 6.5)
+        if (AnchorPointAligner.Distance < 12)
         {
             AnchorPointAligner.Distance += CableSpeed;
         }
@@ -137,7 +156,7 @@ public class CraneController : MonoBehaviour {
 
     private void RetractCable()
     {
-        if(AnchorPointAligner.Distance > 1)
+        if (AnchorPointAligner.Distance > 4)
         {
             AnchorPointAligner.Distance -= CableSpeed;
         }
@@ -145,16 +164,44 @@ public class CraneController : MonoBehaviour {
 
     private void TurnCrane(bool clockwise)
     {
-        gameObject.transform.Rotate(Vector3.up, CraneTurnSpeed * (clockwise ? 1 : -1));
+        //if (clockwise)
+        //{
+        //    PSFrontRight.Play();
+        //    PSBackLeft.Play();
+        //    PSBackRight.Stop();
+        //    PSFrontLeft.Stop();
+        //}
+        //else
+        //{
+        //    PSFrontRight.Stop();
+        //    PSBackLeft.Stop();
+        //    PSBackRight.Play();
+        //    PSFrontLeft.Play();
+        //}
+
+        gameObject.transform.Rotate(Vector3.up, CraneTurnSpeed * (clockwise ? 1 : -1) * Time.timeScale);
     }
 
     private void Accelerate()
     {
-        gameObject.transform.Translate(Vector3.forward * CraneSpeed);
+        //PSBackRight.Play();
+        //PSBackLeft.Play();
+
+        //PSFrontRight.Stop();
+        //PSFrontLeft.Stop();
+
+        //gameObject.GetComponent<Rigidbody>().AddForce(-Vector3.forward * CraneSpeed, ForceMode.VelocityChange);
+        gameObject.transform.Translate(Vector3.forward * CraneSpeed * Time.timeScale);
     }
 
     private void Decelerate()
     {
-        gameObject.transform.Translate(Vector3.back * CraneSpeed);
+        //PSBackRight.Stop();
+        //PSBackLeft.Stop();
+
+        //PSFrontRight.Play();
+        //PSFrontLeft.Play();
+        //gameObject.GetComponent<Rigidbody>().AddForce(-Vector3.back * CraneSpeed, ForceMode.VelocityChange);
+        gameObject.transform.Translate(Vector3.back * CraneSpeed * Time.timeScale);
     }
 }

@@ -42,10 +42,10 @@ public class WreckingBallScript : MonoBehaviour
         var moveTowardsCenter = direction * 0.75f;
 
         Body.AddForce(moveTowardsCenter, ForceMode.VelocityChange);
-        Body.AddForce(forceCentri);
+        //Body.AddForce(forceCentri);
         //Body.AddForce(Target.forward * Body.velocity.magnitude, );
 
-        var direction2 = HingeTarget.position - gameObject.transform.position;
+        //var direction2 = HingeTarget.position - gameObject.transform.position;
         //Body.AddForce(direction2 * 0.75f, ForceMode.VelocityChange);
     }
 }
