@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoadPiece : MonoBehaviour {
+public class RoadPieceScript : MonoBehaviour {
 
     public GameObject Piece;
     public Vector2 Direction;
